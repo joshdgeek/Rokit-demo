@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 import { Hammer, Clock } from "lucide-react";
 import Header from '../header/header'
