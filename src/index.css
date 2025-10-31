@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+/* Force dark background across entire app */
+body {
+    background-color: #000000;
+    /* gray-900 */
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
