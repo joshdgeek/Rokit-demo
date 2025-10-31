@@ -16,8 +16,8 @@ const demoProducts = [
         id: 2,
         name: "Call of Duty Legendary Skin",
         image: codSkin,
-        price: "$12.50",
-        amount: 12.5,
+        price: "$2.50",
+        amount: 2.5,
     },
     {
         id: 3,
@@ -76,7 +76,7 @@ export default function DemoProduct() {
             {/* RokitPay Modal */}
             {selectedProduct && (
                 <RokitPayModalEvm
-                    merchant="0x123YourWalletAddress"
+                    merchant="0xa03ee6691f1287c483511ee6f45a7c9775a02fda"
                     amount={selectedProduct.amount}
                     isOpen={!!selectedProduct}
                     onClose={() => setSelectedProduct(null)}
