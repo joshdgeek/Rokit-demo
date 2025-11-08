@@ -39,7 +39,7 @@ const Header: React.FC = () => {
                             <a href="#demo" className="text-gray-600 hover:text-gray-900 transition">
                                 Demo
                             </a>
-                            <a href="/docs" className="text-gray-600 hover:text-gray-900 transition">
+                            <a href="https://github.com/joshdgeek/Rokit-pay/blob/main/README.md" className="text-gray-600 hover:text-gray-900 transition">
                                 Docs
                             </a>
                             <a href="#footer" className="text-gray-600 hover:text-gray-900 transition">
@@ -82,7 +82,7 @@ const Header: React.FC = () => {
                                     Demo
                                 </a>
                                 <a
-                                    href="/docs"
+                                    href="https://github.com/joshdgeek/Rokit-pay/blob/main/README.md"
                                     className="text-gray-700 hover:text-blue-600 transition"
                                     onClick={() => setIsOpen(false)}
                                 >
